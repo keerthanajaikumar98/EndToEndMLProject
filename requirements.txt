@@ -2,10 +2,11 @@ pandas
 notebook
 numpy
 scikit-learn
-python-box=6.0.2
+python-box==6.0.2
 pyYAML
 ensure==1.0.2
 joblib
-types-pyYAMLFlask
+types-pyYAML
+Flask
 Flask-Cors
--e . 
+-e .
