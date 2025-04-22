@@ -1,6 +1,7 @@
 pandas
 notebook
 numpy
+matplotlib
 scikit-learn
 python-box==6.0.2
 pyYAML
