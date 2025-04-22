@@ -15,8 +15,8 @@ logging.basicConfig(
     format = logging_str,
 
     handlers=[
-        logging.FileHandler(log_filepath), # Writes log files to a file on disk - when you want to persist logs for later analysis (this is the running logs file)
-        logging.StreamHandler(sys.stdout) # Sends log messages to an output stream usually a standard output or a standard error 
+        logging.FileHandler(log_filepath),
+        logging.StreamHandler(sys.stdout)
     ]
 )
 
